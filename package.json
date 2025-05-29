@@ -1,0 +1,24 @@
+{
+  "name": "genetic-tests-app",
+  "version": "1.0.0",
+  "description": "A Laravel application for registering and managing genetic tests.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run watch",
+    "watch": "mix watch",
+    "build": "mix",
+    "hot": "mix watch --hot"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "laravel-mix": "^6.0.6",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.1"
+  },
+  "author": "",
+  "license": "MIT"
+}
